@@ -1,4 +1,4 @@
-#MIT License
+lo#MIT License
 
 #Copyright (c) 2024 Japanese-X-Userbot
 
@@ -33,9 +33,9 @@ ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🥵")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://graph.org/file/ec99cb6dba229bd984537.jpg")
 PM_PIC = getenv("PM_PIC", "https://graph.org/file/936ef33023a77fa9a6813.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
-API_HASH = getenv("API_HASH", "34efb38c74d5e6b25d1bb6234396a8af")
-API_ID = getenv("API_ID", "23129036")
-BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
+API_HASH = getenv("API_HASH", "4107f97d6d579c41975d6f9661abd596")
+API_ID = getenv("API_ID", "12854172")
+BOTLOG_CHATID = int(getenv("-1002072578746") or 0)
 BOT_VER = "4.0.0@main"
 BRANCH = getenv("BRANCH", "main") #don't change this line 
 CMD_HNDLR = cmd
@@ -74,7 +74,7 @@ if SUDOS:
             print(f"Warning: Invalid user ID '{sudo_id}' in SUDO_USERS environment variable.")
             continue
             
-OWNER_ID = os.getenv("OWNER_ID", "")
+OWNER_ID = os.getenv("OWNER_ID", "6553285422")
 
 SUDO_USERS.append(OWNER_ID)
 SUDO_USERS.extend(MASTERS)
