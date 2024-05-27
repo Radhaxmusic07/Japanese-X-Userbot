@@ -9,13 +9,13 @@ load_dotenv("config.env")
 ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🥵")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://graph.org/file/ec99cb6dba229bd984537.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
-API_HASH = getenv("API_HASH", "4107f97d6d579c41975d6f9661abd596")
-API_ID = getenv("API_ID", "12854172")
+API_HASH = getenv("API_HASH", "41b44a9e63feb802afda88e0dcaa82c2")
+API_ID = getenv("API_ID", "22901672")
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "3.0.0@main"
 BRANCH = getenv("BRANCH", "main") #don't change this line 
 CMD_HNDLR = cmd
-OWNER_ID = getenv("OWNER_ID", "6553285422")
+OWNER_ID = getenv("OWNER_ID", "6491959093")
 BOT_TOKEN = getenv("BOT_TOKEN", "none")
 OPENAI_API_KEY = getenv("OPENAI_API_KEY", "HRKU-427b5e49-9358-4afd-91da-71d53889dadc")
 CHANNEL = getenv("CHANNEL", "Japanese_Userbot")
